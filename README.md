@@ -39,5 +39,6 @@ Sair do modelo reativo e implementar o modelo Data Observability, aplicando os s
 ## Como navegar neste repositório
 Para a área técnica e avaliadores, todo o detalhamento da engenharia, higienização de dados em memória utilizando Regex e queries simuladas no Pandas encontram-se no notebook:
 - `discovery.ipynb`
+
 Para verificar as queries em formato SQL, consulte o script:
 - `discovery.sql`

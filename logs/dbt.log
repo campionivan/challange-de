@@ -1,0 +1,31 @@
+[0m15:38:22.227093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x700c65d58ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x700c67b9c190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x700c64ef7c50>]}
+
+
+============================== 15:38:22.232963 | f6904505-eee1-4e96-93a7-20f4e9e1aa96 ==============================
+[0m15:38:22.232963 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:38:22.233296 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'use_colors': 'True', 'no_print': 'None', 'log_path': 'logs', 'target_path': 'None', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'write_json': 'True', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'debug': 'False', 'invocation_command': 'dbt init dbt_project', 'fail_fast': 'False', 'profiles_dir': '/home/magazine.vcampioni@hubfintech.local/.dbt', 'log_cache_events': 'False', 'partial_parse': 'True', 'empty': 'None', 'printer_width': '80', 'static_parser': 'True', 'warn_error': 'None', 'log_format': 'default', 'use_experimental_parser': 'False'}
+[0m15:38:22.290342 [info ] [MainThread]: Creating dbt configuration folder at /home/magazine.vcampioni@hubfintech.local/.dbt
+[0m15:38:22.292776 [debug] [MainThread]: Starter project path: /home/magazine.vcampioni@hubfintech.local/.pyenv/versions/3.13.7/envs/challange-de/lib/python3.13/site-packages/dbt/include/starter_project
+[0m15:38:22.302112 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:38:22.302877 [info ] [MainThread]: Setting up your profile.
+[0m15:38:32.518361 [info ] [MainThread]: Profile dbt_project written to /home/magazine.vcampioni@hubfintech.local/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m15:38:32.527090 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 10.338446, "process_in_blocks": "0", "process_kernel_time": 0.1893, "process_mem_max_rss": "134608", "process_out_blocks": "72", "process_user_time": 1.253742}
+[0m15:38:32.528262 [debug] [MainThread]: Command `dbt init` succeeded at 15:38:32.528009 after 10.34 seconds
+[0m15:38:32.529095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x700c64d30fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x700c65613530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x700c64d67ce0>]}
+[0m15:38:32.529994 [debug] [MainThread]: Flushing usage events
+[0m15:38:32.656354 [debug] [MainThread]: An error was encountered while trying to flush usage events
